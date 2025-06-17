@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h1 class="heading">Calculator Made by Ritik Raj Soni</h1>
+
+    <div class="main">
+
+        <input type="text" id="screen" readonly>
+
+
+        <div class="elements">
+
+            <div class="plus btn clr-b" onclick="modify('(')">
+                <button class="btnstyle2"> ( </button>
+            </div>
+
+            <div class="plus btn clr-b" onclick="modify(')')">
+                <button class="btnstyle2"> ) </button>
+            </div>
+
+            <div class="clear btn clr-c" onclick="modify('C')">
+                <button class="btnstyle2">C</button>
+            </div>
+
+            <div class="clear btn clr-c" onclick="modify('del')">
+                <button class="btnstyle2">Del</button>
+            </div>
+
+            <div class="seven btn clr2" onclick="modify('7')">
+                <button class="btnstyle1">7</button>
+            </div>
+
+            <div class="eight btn clr2" onclick="modify('8')">
+                <button class="btnstyle1">8</button>
+            </div>
+
+            <div class="nine btn clr2" onclick="modify('9')">
+                <button class="btnstyle1">9</button>
+            </div>
+
+            <div class="minus btn clr-m" onclick="modify('-')">
+                <button class="btnstyle2">-</button>
+            </div>
+
+            <div class="four btn clr2" onclick="modify('4')">
+                <button class="btnstyle1">4</button>
+            </div>
+
+            <div class="five btn clr2" onclick="modify('5')">
+                <button class="btnstyle1">5</button>
+            </div>
+
+            <div class="six btn clr2" onclick="modify('6')">
+                <button class="btnstyle1">6</button>
+            </div>
+
+            <div class="devide btn clr-d" onclick="modify('/')">
+                <button class="btnstyle2">÷</button>
+            </div>
+
+            <div class="one btn clr2" onclick="modify('1')">
+                <button class="btnstyle1">1</button>
+            </div>
+
+            <div class="two btn clr2" onclick="modify('2')">
+                <button class="btnstyle1">2</button>
+            </div>
+
+            <div class="three btn clr2" onclick="modify('3')">
+                <button class="btnstyle1">3</button>
+            </div>
+
+            <div class="multiply btn clr-g" onclick="modify('*')">
+                <button class="btnstyle2">x</button>
+            </div>
+
+            <div class="point btn clr1" onclick="modify('.')">
+                <button class="btnstyle1">.</button>
+            </div>
+
+            <div class="zero btn  clr2" onclick="modify('0')">
+                <button class="btnstyle1">0</button>
+            </div>
+
+            <div class="equal btn clr1" onclick="modify('=')">
+                <button class="btnstyle1">=</button>
+            </div>
+
+            <div class="plus btn clr-p" onclick="modify('+')">
+                <button class="btnstyle2">+</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="guidline heading">
+        <p>
+            Use signs( i.e., *,-,+ or / ) before brackets & use brackets carefully !
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
